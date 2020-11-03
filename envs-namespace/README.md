@@ -21,4 +21,4 @@ Simple overlays example with namespace to separate environments like dev and pro
 ## Apply
 
     kubectl apply -k overlays/dev
-    kubectl apply -k overlays/dev
+    kubectl apply -k overlays/prod

@@ -19,4 +19,4 @@ Simple overlays example with prefix to separate environments like dev and prod.
 ## Apply
 
     kubectl apply -k overlays/dev
-    kubectl apply -k overlays/dev
+    kubectl apply -k overlays/prod
